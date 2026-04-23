@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "Complete React Assignment",
+      "description": "Finish the React project and submit before deadline.",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-04-25",
+      "createdAt": "2026-04-20",
+      "category": "Study"
+    },
+    {
+      "id": 2,
+      "title": "Practice DSA Problems",
+      "description": "Solve at least 5 graph-related problems.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-24",
+      "createdAt": "2026-04-21",
+      "category": "Learning"
+    },
+    {
+      "id": 3,
+      "title": "Gym Workout",
+      "description": "Leg day workout session for 1 hour.",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2026-04-22",
+      "createdAt": "2026-04-22",
+      "category": "Health"
+    },
+    {
+      "id": 4,
+      "title": "Build Next.js Project",
+      "description": "Work on data fetching and caching implementation.",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-04-27",
+      "createdAt": "2026-04-23",
+      "category": "Development"
+    },
+    {
+      "id": 5,
+      "title": "Read Clean Code Book",
+      "description": "Read at least 20 pages and take notes.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-26",
+      "createdAt": "2026-04-21",
+      "category": "Study"
+    }
+  ]
