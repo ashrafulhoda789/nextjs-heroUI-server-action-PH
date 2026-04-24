@@ -2,6 +2,8 @@ import AddTask from "@/components/AddTask";
 import TasksCard from "@/components/TasksCard";
 import { createATask } from "@/lib/actions";
 import { getTasks } from "@/lib/tasks";
+import { Button } from "@heroui/react";
+import Link from "next/link";
 
 
 const TasksPage = async() => {
@@ -10,6 +12,9 @@ const TasksPage = async() => {
         <div className="container mx-auto">
             <h2>Tasks: {tasks.length}</h2>
             <AddTask createATask={createATask}></AddTask>
+            <Link href={'/tasks/new'}>
+                <Button>Add Task</Button>
+            </Link>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10"> 
                 {
                     tasks.map(task => <TasksCard key={task.id} task={task}></TasksCard>)
